@@ -1,0 +1,3 @@
+# port 종료
+netstat -ano | findstr 8080
+taskkill /F /pid {번호}
